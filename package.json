@@ -1,0 +1,34 @@
+{
+  "name": "github-calendar-web-component",
+  "version": "1.0.0",
+  "description": "ES6 WebComponent based GitHub Calendar stat widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "dist-it lib/index.js github-calendar-web-component.min.js",
+    "build": "dist-it lib/index.js github-calendar-web-component.min.js --no-uglify --no-commit",
+    "rollup:linux": "rm -rf dist && mkdir dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristofgilicze/github-calendar-web-component.git"
+  },
+  "keywords": [
+    "github",
+    "calendar",
+    "stat"
+  ],
+  "author": "@kristofgilicze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristofgilicze/github-calendar-web-component/issues"
+  },
+  "homepage": "https://github.com/kristofgilicze/github-calendar-web-component#readme",
+  "dependencies": {
+    "github-calendar": "^2.2.6"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
