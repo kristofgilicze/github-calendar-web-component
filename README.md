@@ -3,7 +3,7 @@
 
 ES6 **Web Component** wrapper for [GitHub Calendar](https://github.com/Bloggify/github-calendar).
 
-![demo](https://kristofgilicze.github.io/github-calendar-web-component/showcase.png)
+![demo](showcase.png)
 
 Not all features are exposed, feel free to contribute.
 
