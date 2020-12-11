@@ -12,11 +12,7 @@ class GitHubCalendarElement extends HTMLElement {
         const options = {};
 
         if (this.hasAttribute('username')) {
-            options.responsive =  this.getAttribute('username');
-        }
-
-        if (this.hasAttribute('responsive')) {
-            options.responsive =  this.getAttribute('responsive');
+            options.username =  this.getAttribute('username');
         }
 
         if (this.hasAttribute('summary-text')) {
