@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/kristofgilicze/github-calendar-web-component#readme",
   "dependencies": {
-    "github-calendar": "^2.2.6"
+    "github-calendar": "2.2.7"
   },
   "devDependencies": {
     "rollup-plugin-commonjs": "^10.1.0",

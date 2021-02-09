@@ -12,10 +12,10 @@ Not all features are exposed, feel free to contribute.
 # Installation
 ```html
 # Using npm
-npm install --save github-calendar-web-componen
+npm install --save github-calendar-web-component
 
 # Using yarn
-yarn add github-calendar-web-componen
+yarn add github-calendar-web-component
 ```
 
 # Usage
